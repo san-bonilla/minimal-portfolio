@@ -1,1 +1,12 @@
 /* your styles go here */
+
+/* ---------- Sidebar ----------- */
+.sidebar-email-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar-email {
+  padding-left: 5px;
+}
