@@ -3,6 +3,38 @@
   --main-green: #3eb041;
 }
 
+/* ---------- CTA Button ----------- */
+.btn-cta {
+  background-color: #1A27C9;
+  border-color: #1A27C9;
+}
+
+.btn-cta:hover {
+  background: #1A27C9;
+  border-color: #1A27C9;
+}
+
+.btn-cta:focus,
+.btn-cta.focus {
+  box-shadow: 0 0 0 0.2rem rgba(26, 39, 201, 0.5);
+}
+
+.btn-cta:not(:disabled):not(.disabled):active,
+.btn-cta:not(:disabled):not(.disabled).active,
+.show>.btn-cta.dropdown-toggle {
+  color: #fff;
+  background-color: #1A27C9;
+  border-color: #1A27C9;
+}
+
+.btn-cta:not(:disabled):not(.disabled):active:focus,
+.btn-cta:not(:disabled):not(.disabled).active:focus,
+.show>.btn-cta.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(26, 39, 201, 0.5);
+}
+
+/* ---------- end of CTA Button ----------- */
+
 /* ---------- Sidebar ----------- */
 .sidebar-email-container {
   display: flex;
