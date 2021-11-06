@@ -1,12 +1,7 @@
 /* your styles go here */
 :root {
   --main-green: #3eb041;
-  --cta-bg: red;
 }
-
-/* .btn-cta {
-  background-color: var(--cta-bg);
-} */
 
 /* ---------- Sidebar ----------- */
 .sidebar-email-container {
