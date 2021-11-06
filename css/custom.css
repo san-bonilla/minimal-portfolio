@@ -68,7 +68,7 @@
 }
 
 .hero__main__img img {
-  max-height: 80%;
+  max-height: 90%;
   max-width: 90%;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -84,10 +84,14 @@
     align-items: center;
   }
 
-  .hero__main__content,
+  .hero__main__content {
+    height: 100%;
+    width: 40%;
+  }
+
   .hero__main__img {
     height: 100%;
-    width: 50%;
+    width: 60%;
   }
 
   .hero__main__content {
