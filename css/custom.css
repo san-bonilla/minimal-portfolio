@@ -1,4 +1,7 @@
 /* your styles go here */
+:root {
+  --main-green: #3eb041;
+}
 
 /* ---------- Sidebar ----------- */
 .sidebar-email-container {
@@ -12,6 +15,109 @@
 }
 
 /* ----------- End of sidebar ------- */
+/* ----------- Hero Section ------ */
+
+.hero__main__content {
+  height: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero__main__content__title {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  margin-top: 40px;
+}
+
+.hero__main__content__title__green-text {
+  color: var(--main-green);
+}
+
+.hero__main__content__description {
+  margin-bottom: 40px;
+}
+
+.hero__main__content__cta-link {
+  margin-bottom: 10px;
+}
+
+.hero__main__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin: auto 0;
+}
+
+.hero__main__img img {
+  max-height: 80%;
+  max-width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 576px) {
+  .hero__main {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
+  .hero__main__content,
+  .hero__main__img {
+    height: 100%;
+    width: 50%;
+  }
+
+  .hero__main__content {
+    text-align: left;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding-left: 40px;
+  }
+
+  .hero__main__content__cta-link {
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero__main__content__title {
+    font-size: 4vw;
+  }
+
+  .hero__main__content__description,
+  .hero__main__content__cta-link {
+    font-size: 2vw;
+  }
+}
+
+/* ----------- End of Hero Section ------ */
 
 /* ----------- Cta section ------- */
 section.cta-section {
