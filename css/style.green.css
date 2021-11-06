@@ -1355,19 +1355,19 @@ STYLE SWITCHER FOR DEMO
 
 .btn-primary {
   color: #fff;
-  background-color: #3eb041;
-  border-color: #3eb041;
+  background-color: #1A27C9;
+  border-color: #1A27C9;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #349437;
-  border-color: #318a33;
+  background-color: #1A27C9;
+  border-color: #1A27C9;
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
-  box-shadow: 0 0 0 0.2rem rgba(62, 176, 65, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(26, 39, 201, 0.5);
 }
 
 .btn-primary.disabled,
@@ -1381,14 +1381,14 @@ STYLE SWITCHER FOR DEMO
 .btn-primary:not(:disabled):not(.disabled).active,
 .show>.btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #318a33;
-  border-color: #2d8130;
+  background-color: #1A27C9;
+  border-color: #1A27C9;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus,
 .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(62, 176, 65, 0.5);
+  box-shadow: 0 0 0 0.2rem rgba(26, 39, 201, 0.5);
 }
 
 .btn-secondary {
