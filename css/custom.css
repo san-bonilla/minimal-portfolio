@@ -247,4 +247,24 @@ section.cta-section {
   color: white;
 }
 
+.social-share-link.shopify2:hover {
+  background: #004643;
+  color: white;
+}
+
+.social-share-link.liquid:hover {
+  background: #7f5af0;
+  color: white;
+}
+
+.social-share-link.javascript:hover {
+  background: #ffd803;
+  color: black;
+}
+
+.social-share-link.design:hover {
+  color: white;
+  background: #f25042;
+}
+
 /* -------- End of Project Detail Page --------- */
