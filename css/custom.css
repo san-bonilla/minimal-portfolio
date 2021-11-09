@@ -232,3 +232,19 @@ section.cta-section {
 }
 
 /* -------- End of cta section ----------- */
+/* -------- Project Detail Page --------- */
+.project-description {
+  text-align: justify;
+}
+
+.social-share-link {
+  padding: 0 16px 0 16px;
+
+}
+
+.social-share-link.shopify:hover {
+  background: #95bf47;
+  color: white;
+}
+
+/* -------- End of Project Detail Page --------- */
